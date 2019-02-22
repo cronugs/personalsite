@@ -64,8 +64,8 @@ h4 {
 .section-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300;
-    margin-top: 25px
-    margin-bottom 40px;
+    margin-top: 25px;
+    margin-bottom: 40px;
 }
 
 /*------------------------------------------------ Heading*/
@@ -164,7 +164,7 @@ footer {
 footer .cv-pdf i{
     color: #fafafa;
     text-align: center;
-    font-size: 18pxp;
+    font-size: 18px;
     padding-left: 5px;
 }
 
@@ -200,10 +200,6 @@ footer .cv-pdf i:hover {
 
 .social-links li a i:hover {
     background: #c15133;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 #footer-details {
