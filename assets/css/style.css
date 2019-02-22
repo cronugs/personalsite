@@ -63,6 +63,7 @@ h4 {
     display: table;
 }
 
+.history-heading,
 .section-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300;
@@ -310,13 +311,21 @@ footer .cv-pdf i:hover {
     width: 12px;
     height: 12px;
     display: block;
-    left: 2.5em;
     top: 2.4em;
     position: absolute;
     left: -6px;
     border-radius: 12px;
     content: '';
     background: #fafafa;
+}
+
+.history-heading {
+    color: #fafafa;
+    margin-bottom: 50px;
+}
+
+.history-items {
+    margin-bottom: 30px;
 }
 
 /*------------------------------------------------ Media Queries*/
