@@ -19,6 +19,10 @@
     background-color: #e67e22;
 }
 
+.bg-color-work-history {
+    background-color: #c15133;
+}
+
 .ui-menu-color-resume {
     background-color: #c15133;
 }
@@ -82,9 +86,9 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 360px;
-    transition: all .5s ease-in-out;
+    /*    transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out; */
 }
 
 .name {
@@ -220,12 +224,11 @@ footer .cv-pdf i:hover {
 
 /*------------------------------------------------ Personal Info*/
 
-
 .personal-info-item {
     margin-bottom: 20px;
     display: block;
     clear: both;
-    
+
 }
 
 .personal-info-item .key,
@@ -254,6 +257,66 @@ footer .cv-pdf i:hover {
     display: inline-block;
     position: relative;
     width: 60%;
+}
+
+/*------------------------------------------------ Skills*/
+
+.progress {
+    position: relative;
+    height: 25px;
+}
+
+.progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 400;
+    padding: 3px 30px 2px 10px;
+    color: #fafafa;
+    background-color: rgba(25, 25, 25, 0.45);
+}
+
+.progress-section {
+    margin: 40px 20px;
+}
+
+/*------------------------------------------------ Work History*/
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #fafafa;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item::before {
+    content: attr(dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: .8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item::after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    left: 2.5em;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #fafafa;
 }
 
 /*------------------------------------------------ Media Queries*/
